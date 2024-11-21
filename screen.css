@@ -10,12 +10,12 @@ img {
     object-fit: cover;
   }
 
-  .hero (
+  .hero {
     width: 100%;
     max-width: 100%;
     overflow: hidden;
     position: relative;
-  )
+}
   
   .product-card img {
     width: 100%;
