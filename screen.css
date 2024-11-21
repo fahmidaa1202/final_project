@@ -79,7 +79,7 @@ img {
 .hero-content p {
   font-size: 1.25rem;
   color: #8D5B4C;
-  margin-top: 20px; 
+  margin-top: 20px;
 }
 
 .hero-content .cta {
@@ -89,8 +89,9 @@ img {
   font-weight: bold;
   text-decoration: none;
   border-radius: 5px;
-  margin-top: 40px; 
+  margin-top: 10px; /* Increased margin-top for more space between the subtitle and the button */
 }
+
 
 .hero-content .cta:hover {
   background-color: #8D5B4C;
