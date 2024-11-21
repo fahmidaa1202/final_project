@@ -73,12 +73,13 @@ img {
 .hero-content h1 {
   font-size: 3rem;
   color: #5C4742;
-  margin-top: -20px;
+  margin-top: -25px; 
 }
 
 .hero-content p {
   font-size: 1.25rem;
   color: #8D5B4C;
+  margin-top: -5px;  
 }
 
 .hero-content .cta {
