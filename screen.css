@@ -4,9 +4,7 @@ img {
   }
   
   .hero-image {
-    width: 100%;
-    max-height: 500px;
-    object-fit: cover;
+    width: 200px;
   }
   
   .product-card img {
