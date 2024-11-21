@@ -1,4 +1,4 @@
-/* Global Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -6,9 +6,9 @@
 }
 
 body {
-  background-color: #F9F9F9; /* Neutral light gray background for all pages */
+  background-color: #F9F9F9;
   font-family: 'Arial', sans-serif;
-  color: #5C4742; /* Default text color */
+  color: #5C4742;
   line-height: 1.6;
 }
 
@@ -18,11 +18,10 @@ img {
   display: block;
 }
 
-/* Hero Section */
 .hero {
   width: 100%;
   position: relative;
-  background-color: #A5978B; /* Light beige background for hero section */
+  background-color: #A5978B;
   overflow: hidden;
 }
 
@@ -40,18 +39,18 @@ img {
 
 .hero-content h1 {
   font-size: 3rem;
+  color: #5C4742;
   margin-top: -20px;
-  color: #5C4742; /* Brownish color for heading */
 }
 
 .hero-content p {
   font-size: 1.25rem;
-  color: #8D5B4C; /* Warm brown text color */
+  color: #8D5B4C;
 }
 
 .hero-content .cta {
   padding: 12px 24px;
-  background-color: #5A2A27; /* Dark red-brown for call to action button */
+  background-color: #5A2A27;
   color: white;
   font-weight: bold;
   text-decoration: none;
@@ -60,14 +59,13 @@ img {
 }
 
 .hero-content .cta:hover {
-  background-color: #8D5B4C; /* Lighter warm brown on hover */
+  background-color: #8D5B4C;
 }
 
-/* Featured Section */
 .featured {
   padding: 40px 0;
   text-align: center;
-  background-color: #F9F9F9; /* Light gray background */
+  background-color: #F9F9F9;
 }
 
 .product-grid {
@@ -98,18 +96,17 @@ img {
 }
 
 .product-card p {
-  color: #5C4742; /* Brownish tone for product name */
+  color: #5C4742;
 }
 
 .product-card p:last-child {
-  color: #8D5B4C; /* Warm brown for price */
+  color: #8D5B4C;
 }
 
-/* Testimonials Section */
 .testimonials {
   padding: 40px 0;
   text-align: center;
-  background-color: #F9F9F9; /* Light gray background */
+  background-color: #F9F9F9;
 }
 
 .testimonial-card {
@@ -125,18 +122,17 @@ img {
 
 .testimonial-card p {
   font-style: italic;
-  color: #5C4742; /* Brownish tone for testimonials */
+  color: #5C4742;
 }
 
 .testimonial-card p:last-child {
   margin-top: 10px;
-  color: #8D5B4C; /* Warm brown for customer's name */
+  color: #8D5B4C;
 }
 
-/* Newsletter Section */
 .newsletter {
   padding: 40px 0;
-  background-color: #A5978B; /* Light beige background for newsletter */
+  background-color: #A5978B;
   text-align: center;
 }
 
@@ -151,7 +147,7 @@ img {
   padding: 10px;
   margin-bottom: 15px;
   border-radius: 5px;
-  border: 1px solid #8D5B4C; /* Warm brown border for input */
+  border: 1px solid #8D5B4C;
   font-size: 16px;
 }
 
@@ -159,20 +155,19 @@ img {
   padding: 12px;
   border: none;
   border-radius: 5px;
-  background-color: #5A2A27; /* Darker red-brown for button */
+  background-color: #5A2A27;
   color: white;
   font-size: 16px;
   cursor: pointer;
 }
 
 .newsletter button:hover {
-  background-color: #8D5B4C; /* Lighter warm brown on hover */
+  background-color: #8D5B4C;
 }
 
-/* Footer Section */
 footer {
   padding: 20px 0;
-  background-color: #5C4742; /* Brown footer background */
+  background-color: #5C4742;
   color: white;
   text-align: center;
 }
@@ -188,10 +183,9 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  color: #A5978B; /* Light beige hover effect for social links */
+  color: #A5978B;
 }
 
-/* Mobile adjustments */
 @media (max-width: 768px) {
   .hero-image {
     max-height: 300px;
