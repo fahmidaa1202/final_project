@@ -79,7 +79,7 @@ img {
 .hero-content p {
   font-size: 1.25rem;
   color: #8D5B4C;
-  margin-top: -5px;
+  margin-top: 20px;
 }
 
 .hero-content .cta {
@@ -89,7 +89,7 @@ img {
   font-weight: bold;
   text-decoration: none;
   border-radius: 5px;
-  margin-top: 20px; 
+  margin-top: 30px; 
 }
 
 .hero-content .cta:hover {
