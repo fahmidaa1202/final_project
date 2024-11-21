@@ -89,9 +89,8 @@ img {
   font-weight: bold;
   text-decoration: none;
   border-radius: 5px;
-  margin-top: -45px; 
+  margin-top: -35px; 
 }
-
 
 .hero-content .cta:hover {
   background-color: #8D5B4C;
