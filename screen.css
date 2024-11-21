@@ -40,6 +40,7 @@ img {
 
 .hero-content h1 {
   font-size: 3rem;
+  margin-top: -20px;
   color: #5C4742; /* Brownish color for heading */
 }
 
