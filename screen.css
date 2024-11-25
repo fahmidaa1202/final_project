@@ -72,6 +72,7 @@ img {
 }
 
 .hero-content h1 {
+  font-family: 'Major Mono Display', monospace;
   font-size: 3rem;
   color: #5C4742;
   margin-top: 0; 
