@@ -264,3 +264,10 @@ footer .social-links a:hover {
     margin: 10px 0;
   }
 }
+
+.product-card img {
+  max-width: 200px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
