@@ -278,3 +278,23 @@ footer .social-links a:hover {
   object-fit: cover;
   margin-bottom: 10px;
 }
+
+.founder-section {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.founder-image {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.founder-bio {
+  font-size: 1.1rem;
+  color:#5C4742;
+  line-height: 1.6;
+}
