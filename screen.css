@@ -298,3 +298,17 @@ footer .social-links a:hover {
   color:#5C4742;
   line-height: 1.6;
 }
+
+.offer-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.offer-image {
+  max-width: 45%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
