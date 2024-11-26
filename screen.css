@@ -281,14 +281,14 @@ footer .social-links a:hover {
 
 .founder-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   margin-top: 20px;
 }
 
 .founder-image, .team-image {
   width: 48%;
-  max-width: 300px;
+  max-width: 250px;
   height: auto;
   object-fit: cover;
   border-radius: 8px;
