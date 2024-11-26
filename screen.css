@@ -288,16 +288,10 @@ footer .social-links a:hover {
 
 .founder-image, .team-image {
   width: 48%;
+  max-width: 300px;
   height: auto;
   object-fit: cover;
   border-radius: 8px;
-}
-
-.founder-bio {
-  font-size: 1.1rem;
-  color:#5C4742;
-  line-height: 1.6;
-  width: 45%;
 }
 
 .offer-images {
