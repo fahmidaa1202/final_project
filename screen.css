@@ -226,6 +226,10 @@ footer p {
   font-size: 14px;
 }
 
+footer .social-links {
+  margin-top: 10px;
+}
+
 footer .social-links a {
   color: white;
   margin: 0 10px;
