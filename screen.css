@@ -11,18 +11,21 @@ header {
   padding: 20px 50px;
 }
 
-.logo {
-  font-family: 'Major Mono Display', monospace;
-  font-size: 2rem;
-  font-weight: bold;
+.logo-container {
   display: flex;
   align-items: center;
 }
 
-.logo img {
+.logo-image {
   width: 150px;
   height: auto;
   margin-right: 10px;
+}
+
+.logo-text {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 nav ul {
@@ -83,11 +86,11 @@ img {
   font-size: 3rem;
   color: #5C4742;
   margin-top: 0;
-  font-family: 'Major Mono Display', monospace; /* Added font for the title */
+  font-family: 'Major Mono Display', monospace;
 }
 
-.hero-content p {
-  font-size: 1.25rem;
+.hero-content h2 {
+  font-size: 1.5rem;
   color: #8D5B4C;
   margin-top: 10px;
 }
@@ -246,5 +249,18 @@ footer .social-links a:hover {
 
   .newsletter form {
     width: 90%;
+  }
+
+  .logo-text {
+    font-size: 1.5rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
   }
 }
